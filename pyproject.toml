@@ -8,6 +8,7 @@ authors = ["Bill Wanjohi <bill.wanjohi@civicactions.com>"]
 python = "^2.7"
 pip-tools = "^5.5.0"
 ckanext-harvest = {path = "ckan-extensions/harvest"}
+ckanext-envvars = {path = "ckan-extensions/envvars/submodule"}
 
 [tool.poetry.dev-dependencies]
 
