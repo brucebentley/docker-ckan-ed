@@ -1,0 +1,6 @@
+[submodule "ckan-extensions/envvars/submodule"]
+	path = ckan-extensions/envvars/submodule
+	url = https://github.com/okfn/ckanext-envvars.git
+[submodule "ckan-extensions/harvest/submodule"]
+	path = ckan-extensions/harvest/submodule
+	url = https://github.com/ckan/ckanext-harvest.git

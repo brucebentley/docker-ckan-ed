@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-pip-compile"
+version = "0.1.0"
+description = ""
+authors = ["Bill Wanjohi <bill.wanjohi@civicactions.com>"]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+pip-tools = "^5.5.0"
+ckanext-harvest = {path = "ckan-extensions/harvest"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
